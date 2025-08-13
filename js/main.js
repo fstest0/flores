@@ -26,7 +26,7 @@ const dailyTitles = [
   "UM BEIJO",
   "UM SORRISO",
   "UM ELOGIO",
-  "UM MOMENTO JUNTOS",
+  "UM MOMENTO JUNTINHOS",
   "UM DATE",
   "UM VALE TUDO",
   "UM DIA ABRAÇADOS",
@@ -36,7 +36,7 @@ const dailyTitles = [
   "UM ALMOÇO",
   "UM LANCHE",
   "UM PASSEIO",
-  "DORMIR DEITADO NO PEITO",
+  "DORMIR ENCOSTADOS",
   "UM CHOCOLATE"
 ];
 
