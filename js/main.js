@@ -42,14 +42,14 @@ const dailyTitles = [
 
 function getDayOfYear() {
   const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 0);
+  const start = new Date(now.getFullYear().toLocaleString("pt-pt"), 0, 0);
   const diff = now - start;
   return Math.floor(diff / (1000 * 60 * 60 * 24));
 }
 
 // Pseudo-random function that's consistent per day but seemingly random
 function getDailyIndex(seed, arrayLength) {
-  const day = getDayOfYear();
+  const day = getDayOfYear().toLocaleString("pt-pt");
   // Create a pseudo-random but consistent seed for the day
   const hash = Math.sin((day + seed) * 12345.6789) * 10000;
   return Math.floor(Math.abs(hash) % arrayLength);
